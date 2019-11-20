@@ -1,4 +1,4 @@
-# Ecommerce Demo
+# Auditing and Reporting Demo
 
 ## Setup
 
@@ -27,14 +27,3 @@
   ```
   xl apply -f xebialabs.yaml
   ```
-1. Manually fix **JIRA** create tasks to add the `title` and `description` fields as follows:
-  ```
-  title: ${changeRequestId}: microsite feature on the ecommerce website
-  ```
-
-  ```
-  description: |-
-    This user story is for design of the microsite feature on the
-    ecommerce website. This is in relation to ${changeRequestId}
-  ```
-  - [LOVE-1185](https://xebialabs.atlassian.net/browse/LOVE-1185)
